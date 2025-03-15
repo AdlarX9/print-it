@@ -1,0 +1,1 @@
+```print-it % g++ -std=c++14 main.cpp Phrase/Phrase.cpp Lettre/Lettre.cpp -o main && ./main``` pour compiler et exécuter le script.
