@@ -1,19 +1,21 @@
 # Print it!
 
-## Présentation
+## Overview
 
-Print it vous permet d'afficher des phrases dans la consoles en gros. \
-La logique pour utiliser le script est facilement compréhensible et se trouve dans `main.cpp`.
+Print it allows you to display phrases in large text on the console.  
+The logic for using the script is straightforward and can be found in `main.cpp`.
 
-## Lancer le projet
+## Running the Project
 
-Pour compiler et exécuter le script :
+To compile and run the script, use the following commands:
 ```bash
-print-it % g++ -std=c++20 main.cpp Phrase/Phrase.cpp Lettre/Lettre.cpp -o main
-print-it % ./main
+g++ -std=c++20 main.cpp Phrase/Phrase.cpp Lettre/Lettre.cpp -o main
+```
+```bash
+./main
 ```
 
-## Exemples
+## Examples
 
 > ![example1](examples/example1.png)
 
